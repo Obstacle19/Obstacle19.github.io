@@ -242,12 +242,47 @@
         <!-- Selected Projects -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <heading>Selected Projects</heading>
-          <tr>
-            <td>
-              <!-- to be continued... -->
-               TODO
+
+          <tr onmouseout="eo1_stop()" onmouseover="eo1_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='eo1_shape'>
+                  <video width="160" height="120" muted autoplay loop style="object-fit: fill;">
+                    <source src="project/national_iot_design_competition/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="project/national_iot_design_competition/teaser.png" width="160" height="120">
+              </div>
+              <script type="text/javascript">
+                function eo1_start() {
+                  document.getElementById('eo1_shape').style.opacity = "1";
+                }
+                function eo1_stop() {
+                  document.getElementById('eo1_shape').style.opacity = "0";
+                }
+                document.addEventListener('DOMContentLoaded', eo1_stop);
+              </script>
             </td>
+            <td valign="top" width="75%">
+              <a href="https://www.bilibili.com/video/BV18FyGYqEVD/?spm_id_from=333.1007.top_right_bar_window_history.content.click">
+                <papertitle>Smart Delivery: 5G-enabled Intelligent Office Automation Vehicle based on Fibocom Technology</papertitle>
+              </a>
+              <br>
+              <a>Xuan Zeng</a>,
+              <strong>Shuai Shao</strong>,
+              <a>Xin Yu</a>,
+              <a>Xijia Huang</a>
+              <br>
+              <a href="https://www.bilibili.com/video/BV18FyGYqEVD/?spm_id_from=333.1007.top_right_bar_window_history.content.click">video</a> |
+              <a href="https://iot.sjtu.edu.cn/show.aspx?info_lb=34&info_id=4038&flag=2">award list</a>
+              <a href="https://www.bilibili.com/video/BV18FyGYqEVD/?spm_id_from=333.1007.top_right_bar_window_history.content.click">
+                <img alt="Static Badge" src="https://img.shields.io/badge/Video-SmartDelivery-FB7299?logo=bilibili&logoColor=white">
+              </a>
+              <br>
+              "Smart Delivery", powered by Fibocom's 5G AIoT SC171 V2, combines mini-program control, smart path planning, and face-verified security to boost office efficiency and data safety.
           </tr>
+
         </table>
 
         <!-- Honors & Awards -->
