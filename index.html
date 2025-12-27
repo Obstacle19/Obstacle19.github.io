@@ -130,7 +130,7 @@
                 startup opportunities.</p>
               <p align=center>
                 <a href="mailto:shuaishao@hnu.edu.cn">Email</a> &nbsp|&nbsp
-                <a href="files/shaoshuai_cv_20251020.pdf">CV</a> &nbsp|&nbsp
+                <a href="files/shaoshuai_cv_20251227.pdf">CV</a> &nbsp|&nbsp
                 <a href="https://github.com/Obstacle19">GitHub</a> &nbsp|&nbsp
                 <a href="https://scholar.google.com">Google Scholar</a> &nbsp|&nbsp
                 <a href="https://www.zhihu.com/people/49-64-5-73-32">Zhihu</a> &nbsp|&nbsp
@@ -199,7 +199,7 @@
             <td width="25%">
               <div class="one">
                 <div class="two" id='guangming_daily_reports'>
-                  <img src="reports/guangming_daily_reports.jpg" width="160" height="120">
+                  <img src="reports/guangming_daily_reports/picture.jpg" width="160" height="120">
                 </div>
               </div>
             </td>
@@ -219,11 +219,44 @@
             </td>
           </tr>
 
+          <tr onmouseout="national_scholarship_stop()" onmouseover="national_scholarship_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='national_scholarship_shape'>
+                  <video width="160" height="120" muted autoplay loop style="object-fit: fill;">
+                    <source src="reports/annual_commendation_conference/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="reports/annual_commendation_conference/picture.png" width="160" height="120">
+              </div>
+              <script type="text/javascript">
+                function national_scholarship_start() {
+                  document.getElementById('national_scholarship_shape').style.opacity = "1";
+                }
+                function national_scholarship_stop() {
+                  document.getElementById('national_scholarship_shape').style.opacity = "0";
+                }
+                document.addEventListener('DOMContentLoaded', national_scholarship_stop);
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://mp.weixin.qq.com/s/lEUz8EpQJuIJCJRtzshxiw">
+                <papertitle>Undergraduate Representative of the National Scholarship at the HNU Annual Commendation Conference</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/Obstacle19/Obstacle19.github.io/reports/annual_commendation_conference/video.mp4">Video</a> |
+              <a href="https://mp.weixin.qq.com/s/lEUz8EpQJuIJCJRtzshxiw">HNU WeChat</a>
+              <p></p>
+              As the Undergraduate Representative of the National Scholarship at HNU, I appeared in a promotional video at the 2024–2025 HNU Annual Commendation Conference, highlighting my belief in theory-to-practice integration.
+            </tr>
+
           <!-- word part -->
           <tr>
             <td colspan="2" style="padding-top: 0px;"> <!-- 新增 colspan="2" -->
               <ul>
-                <li>Outstanding Student Role Model: <a href="https://mp.weixin.qq.com/s/vhL8IlhcHPcA9fD9gB4djw">Tour of Student Achievements</a> </li>
+                <li>The 7th HNU Undergraduate Party Member Leadership Program: <a href="https://mp.weixin.qq.com/s/Z0Alc_LmBVGyUQHJYxWDRw">Research on Hainan Free Trade Port</a> </li>
+                <li>Outstanding Student Model of HNU: <a href="https://mp.weixin.qq.com/s/vhL8IlhcHPcA9fD9gB4djw">Tour of Student Achievements</a> </li>
                 <li>The 20th CSEE Career Planning Festival: <a href="https://mp.weixin.qq.com/s/E_HahxUmbu1dbw8VL6LrAQ">HNU CSEE Official WeChat Coverage</a> </li>
                 <li>The 19th CSEE Career Planning Festival: <a href="https://mp.weixin.qq.com/s/MOQ4_IYDTzB-DLHmJ3_VwQ">HNU CSEE Official WeChat Coverage</a> </li>                
               </ul>
@@ -246,10 +279,10 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <heading>Selected Projects</heading>
 
-          <tr onmouseout="eo1_stop()" onmouseover="eo1_start()">
+          <tr onmouseout="smartdelivery_stop()" onmouseover="smartdelivery_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='eo1_shape'>
+                <div class="two" id='smartdelivery_shape'>
                   <video width="160" height="120" muted autoplay loop style="object-fit: fill;">
                     <source src="project/national_iot_design_competition/video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -258,13 +291,13 @@
                 <img src="project/national_iot_design_competition/teaser.png" width="160" height="120">
               </div>
               <script type="text/javascript">
-                function eo1_start() {
-                  document.getElementById('eo1_shape').style.opacity = "1";
+                function smartdelivery_start() {
+                  document.getElementById('smartdelivery_shape').style.opacity = "1";
                 }
-                function eo1_stop() {
-                  document.getElementById('eo1_shape').style.opacity = "0";
+                function smartdelivery_stop() {
+                  document.getElementById('smartdelivery_shape').style.opacity = "0";
                 }
-                document.addEventListener('DOMContentLoaded', eo1_stop);
+                document.addEventListener('DOMContentLoaded', smartdelivery_stop);
               </script>
             </td>
             <td valign="top" width="75%">
@@ -283,7 +316,8 @@
                 <img alt="Static Badge" src="https://img.shields.io/badge/Video-SmartDelivery-FB7299?logo=bilibili&logoColor=white">
               </a>
               <br>
-              We propose "Smart Delivery" — a 5G AIoT-powered solution built on Fibocom's SC171 V2 module — that integrates mini-program control, intelligent path planning, and face-verified security to enhance office operational efficiency and data integrity.          </tr>
+              We propose "Smart Delivery" — a 5G AIoT-powered solution built on Fibocom's SC171 V2 module — that integrates mini-program control, intelligent path planning, and face-verified security to enhance office operational efficiency and data integrity.
+            </tr>
 
         </table>
 
